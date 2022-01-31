@@ -1,0 +1,17 @@
+:root {
+  --primary: red;
+  --secondary: blue;
+  /* etc... */
+
+  @media (prefers-color-scheme: dark) {
+    /* Dark-theme colour alternatives */
+    --primary: black;
+    --secondary: white;
+    /* etc... */
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
